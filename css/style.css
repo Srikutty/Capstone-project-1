@@ -1,0 +1,148 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/*title*/
+.title-text{
+  font-family:cursive, serif;
+  font-size: 1.5rem;
+  font-weight:lighter;
+  color: aqua;
+  text-align: center;
+  background-color: rgb(71, 106, 107);
+}
+
+/* Header Styles */
+header {
+  background: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin: 0 1rem;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* About Section */
+.about {
+  padding: 2rem;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+#about h1 {
+  margin-bottom: 1rem;
+}
+
+/* Gallery Section */
+#gallery {
+  padding: 2rem;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Footer Styles */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 2;
+}
+
+.profile-img {
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.image-container {
+  display: grid;
+  place-items: center; /* Centers both horizontally and vertically */
+  height: 40vh;       /* Example height for vertical centering */
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+h2{
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif, serif;
+  font-size: 3rem;
+  font-weight:lighter;
+  color: aqua;
+  
+}
+
+h3{
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  font-weight:lighter;
+  color:teal;
+  
+}
+
+.intro{
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
+}
+
+
+.contact-container {
+  text-align: center; /* Centers the button horizontally */
+  margin-top: 2rem;   /* Adds space above the button */
+}
+
+.contact-button {
+  display: inline-block; /* Makes the button behave like an inline element */
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  text-decoration: none; /* Removes underline */
+  padding: 10px 20px; /* Space inside the button */
+  font-size: 30px; /* Font size for the text */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+.contact-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
